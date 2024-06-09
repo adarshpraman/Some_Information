@@ -15,3 +15,8 @@
 7) git add dist -f
 8) git commit -m "first commit"
 9) git subtree push --prefix dist origin gh-pages
+
+
+# To create React + vite app 
+-----------------------------
+npm create vite@latest
