@@ -1,12 +1,18 @@
 # To install tailwind CSS
 ---------------------------
-1) npm install -D tailwindcss
-2) npx tailwindcss init
-3) content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  Add this in tailwind.config
-4)  @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-Add these in index.css
+1) This initializes the directory as a NodeJs project
+                npm init —y 
+2) Installs required packages
+                npm install —D tailwindcss postcss autoprefixer vite 
+3) npx tailwindcss init —p
+4) In tailwind.config.js file, replace content: [], with 
+                content: [
+                    "./index.html",
+                    "./src/**/*.{js,ts,jsx,tsx}",
+                    ],
+5) Create a css file "input.css" , add it to your html and edit it with this content:
+                @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+6) To start a dev server
+                npm run dev
