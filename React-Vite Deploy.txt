@@ -10,7 +10,7 @@
 		git remote add origin https://github.com/<Username>/<Repository-Name>.git
 4) Pushing local project to GitHub repository
 		git push -u origin main
-5) In vite.config.js file, add this -> base:"/Repo_name/"
+5) In vite.config.js file, add this -> base:"/<Repo_name>/"
 6) npm run build
 7) git add dist -f
 8) git commit -m "first commit"
