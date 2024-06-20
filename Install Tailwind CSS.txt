@@ -9,7 +9,7 @@
                 content: [
                     "./index.html",
                     "./src/**/*.{js,ts,jsx,tsx}",
-                    ],
+                  ],
 5) Create a css file "input.css" , add it to your html and edit it with this content:
                 @tailwind base;
                 @tailwind components;
